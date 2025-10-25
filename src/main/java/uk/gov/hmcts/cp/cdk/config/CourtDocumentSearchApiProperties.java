@@ -4,8 +4,8 @@ package uk.gov.hmcts.cp.cdk.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component
-@ConfigurationProperties(prefix = "courtDocument.api")
+
+@ConfigurationProperties(prefix = "courtdocument.api")
 public class CourtDocumentSearchApiProperties {
 
     private String courtDocumentSearchUrlTemplate;
